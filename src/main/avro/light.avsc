@@ -1,0 +1,63 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Light",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "state",
+      "type": "my.example.hue.State"
+    },
+    {
+      "name": "swupdate",
+      "type": "my.example.hue.SoftwareUpdate"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "modelid",
+      "type": "string"
+    },
+    {
+      "name": "manufacturername",
+      "type": "string"
+    },
+    {
+      "name": "productname",
+      "type": "string"
+    },
+    {
+      "name": "capabilities",
+      "type": "my.example.hue.Capabilities"
+    },
+    {
+      "name": "config",
+      "type": "my.example.hue.Config"
+    },
+    {
+      "name": "uniqueid",
+      "type": "string"
+    },
+    {
+      "name": "swversion",
+      "type": "string"
+    },
+    {
+      "name": "swconfigid",
+      "type": "string"
+    },
+    {
+      "name": "productid",
+      "type": "string"
+    }
+  ]
+}

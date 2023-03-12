@@ -1,0 +1,15 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Ct",
+  "fields": [
+    {
+      "name": "min",
+      "type": "long"
+    },
+    {
+      "name": "max",
+      "type": "long"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Capabilities",
+  "fields": [
+    {
+      "name": "certified",
+      "type": "boolean"
+    },
+    {
+      "name": "control",
+      "type": "my.example.hue.Control"
+    },
+    {
+      "name": "streaming",
+      "type": "my.example.hue.Streaming"
+    }
+  ]
+}

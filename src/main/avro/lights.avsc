@@ -1,0 +1,17 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Lights",
+  "fields": [
+    {
+      "name": "lights",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "my.example.hue.Light",
+          "name": "light"
+        }
+      }
+    }
+  ]
+}

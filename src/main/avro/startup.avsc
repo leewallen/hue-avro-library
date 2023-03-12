@@ -1,0 +1,15 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Startup",
+  "fields": [
+    {
+      "name": "mode",
+      "type": "string"
+    },
+    {
+      "name": "configured",
+      "type": "boolean"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "SoftwareUpdate",
+  "fields": [
+    {
+      "name": "state",
+      "type": "string"
+    },
+    {
+      "name": "lastinstall",
+      "type": "string"
+    }
+  ]
+}

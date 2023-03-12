@@ -1,0 +1,54 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "State",
+  "fields": [
+    {
+      "name": "on",
+      "type": "boolean"
+    },
+    {
+      "name": "bri",
+      "type": "long"
+    },
+    {
+      "name": "hue",
+      "type": "long"
+    },
+    {
+      "name": "sat",
+      "type": "long"
+    },
+    {
+      "name": "effect",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "xy",
+      "type": {
+        "type": "array",
+        "items": "double"
+      }
+    },
+    {
+      "name": "ct",
+      "type": ["null", "my.example.hue.Ct"]
+    },
+    {
+      "name": "alert",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "colormode",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "mode",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "reachable",
+      "type": "boolean"
+    }
+  ]
+}

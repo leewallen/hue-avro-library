@@ -1,0 +1,23 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Config",
+  "fields": [
+    {
+      "name": "archetype",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "function",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "direction",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "startup",
+      "type": "my.example.hue.Startup"
+    }
+  ]
+}

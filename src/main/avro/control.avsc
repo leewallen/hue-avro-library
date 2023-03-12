@@ -1,0 +1,33 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Control",
+  "fields": [
+    {
+      "name": "mindimlevel",
+      "type": "long"
+    },
+    {
+      "name": "maxlumen",
+      "type": "long"
+    },
+    {
+      "name": "colorgamuttype",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "colorgamut",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": "double"
+        }
+      }
+    },
+    {
+      "name": "ct",
+      "type": "my.example.hue.Ct"
+    }
+  ]
+}

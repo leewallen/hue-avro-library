@@ -1,0 +1,15 @@
+{
+  "namespace": "my.example.hue",
+  "type": "record",
+  "name": "Streaming",
+  "fields": [
+    {
+      "name": "renderer",
+      "type": "boolean"
+    },
+    {
+      "name": "proxy",
+      "type": "boolean"
+    }
+  ]
+}
